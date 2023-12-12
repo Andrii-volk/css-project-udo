@@ -1,11 +1,15 @@
-.img-sea{
+.img-sea {
   display: block;
   width: 200px;
   height: 100px;
   box-sizing: border-box;
   border: 5px solid;
-  border-left-color:rgb(189, 242, 45);
+  border-left-color: rgb(189, 242, 45);
   border-bottom-style: dotted;
   padding: 15px;
-  margin: 120px;
+  margin: 50px auto;
+}
+.neg-margin {
+  margin-top: -20px;
+  border-top: 5px solid blue;
 }
