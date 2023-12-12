@@ -1,15 +1,48 @@
-.img-sea {
-  display: block;
+body {
+  font-size: 0px;
+}
+.img-cat {
+  margin: 10px 20px;
+  padding: 5px;
   width: 200px;
+  height: 200px;
+  border: 5px solid red;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.img-sea {
+  margin: 10px 20px;
+object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border: 5px solid red;
+  border-radius: 50%;
+  /* display: block; */
+  /* width: 200px;
   height: 100px;
   box-sizing: border-box;
   border: 5px solid;
   border-left-color: rgb(189, 242, 45);
   border-bottom-style: dotted;
   padding: 15px;
-  margin: 50px auto;
+  margin: 10px 10px; */
 }
-.neg-margin {
+.text {
+  display: inline-block;
+  width: 100px;
+  border: 5px solid green;
+  padding: 20px 50px;
+  margin: 0px;
+  font-size: initial;
+}
+/* .neg-margin {
   margin-top: -20px;
   border-top: 5px solid blue;
 }
+.span{
+  display: block;
+  width: 200px;
+  border: 5px solid red;
+  padding: 20px 50px;
+  margin:20px 50px;
+} */
